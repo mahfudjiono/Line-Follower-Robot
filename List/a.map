@@ -1,0 +1,92 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+vc                                                                0x0279       2
+I                                                                 0x027B       2
+PV                                                                0x027D       2
+error                                                             0x027F       2
+lasterror                                                         0x0281       2
+encomp                                                            0x0283       2
+lc1                                                               0x0285       2
+xcc                                                               0x0287       2
+kp                                                                0x0289       1
+kd                                                                0x028A       1
+ki                                                                0x028B       1
+pulsa                                                             0x028C       1
+batas                                                             0x028D       1
+timer                                                             0x028E     101
+speed                                                             0x02F3     101
+speed1                                                            0x0358     101
+count2                                                            0x03BD       1
+start                                                             0x03BE       1
+time                                                              0x03BF     101
+cacah                                                             0x0424       1
+cc                                                                0x0425       1
+plan                                                              0x0426      21
+read                                                              0x043B      21
+SP                                                                0x0450       1
+mode                                                              0x0451       1
+cut                                                               0x0452     101
+cut1                                                              0x04B7     101
+counting                                                          0x051C       1
+protec                                                            0x051D       1
+del                                                               0x051E     101
+tunda                                                             0x0583       1
+modekanan                                                         0x0584       1
+sensitive                                                         0x0585      16
+in                                                                0x0595       1
+adc                                                               0x0596       1
+sam                                                               0x0597       1
+samping                                                           0x0598       1
+sam1                                                              0x0599       1
+samping1                                                          0x059A       1
+hight                                                             0x059B      16
+low                                                               0x05AB      16
+scan                                                              0x05BB       1
+inv                                                               0x05BC       1
+invers                                                            0x05BD       1
+dep                                                               0x05BE       2
+depan                                                             0x05C0       2
+sen                                                               0x05C2       2
+sm                                                                0x05C4       2
+pass                                                              0x05C6       2
+buff                                                              0x05C8      33
+_base_y                                                           0x05E9       4
+_lcd_x                                                            0x05ED       1
+_lcd_y                                                            0x05EE       1
+_lcd_maxx                                                         0x05EF       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+esensitive                                                        0x0000      16
+espeed                                                            0x0010     101
+espeed1                                                           0x0075     101
+etimer                                                            0x00DA     101
+eplan                                                             0x013F      21
+eread                                                             0x0154      21
+ecut                                                              0x0169     101
+ecut1                                                             0x01CE     101
+edel                                                              0x0233     101
+eencomp                                                           0x0298       1
+emode                                                             0x0299       1
+emodekanan                                                        0x029A       1
+epulsa                                                            0x029B       1
+ekp                                                               0x029C       1
+ekd                                                               0x029D       1
+eki                                                               0x029E       1
+elc                                                               0x029F       1
+elc1                                                              0x02A0       1
+evc                                                               0x02A1       1
+emax1                                                             0x02A2       1
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+aktif                                                             R2.0      1bit
+lock                                                              R2.1      1bit
+rpwm                                                              R4,R5        2
+lpwm                                                              R6,R7        2
+max1                                                              R8,R9        2
+m                                                                 R10,R11      2
+lc                                                                R12,R13      2
